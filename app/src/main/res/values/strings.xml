@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">CMS 2</string>
+    <string name="fullname">Fullname</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Textview">WELCOME TO SM SHETTY</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Tabb1">Tabb1</string>
+    <string name="Tab2">Tab2</string>
+    <string name="Tab3">Tab3</string>
+    <string name="sliding">slidingtableusingpageview</string>
+    <string name="welcome_to_sm_shetty">WELCOME TO SM SHETTY</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="finance">FINANCE</string>
+    <string name="goal">GOAL</string>
+    <string name="health">HEALTH</string>
+
+
+    <string name="comfort">COMFORT</string>
+    <string name="education">Education</string>
+    <string name="profile">PROFILE</string>
+    <string name="loginpage">LOGIN PAGE</string>
+    <string name="mobileno">Mobile No.</string>
+    <string name="email">Email</string>
+    <string name="Red">Red</string>
+    <string name="Green">Green</string>
+    <string name="Blue">Blue</string>
+    <string name="submit">submit</string>
+    <string name="Tab1">Tab1</string>
+    <string name="Tab">Tab</string>
+    <string name="title_activity_tabbed">Tabbed</string>
+    <string name="sm_shetty_canteen">SM SHETTY CANTEEN</string>
+    <string name="title_activity_tablayout">Tablayout</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="chinese">Chinese</string>
+    <string name="snacks">Snacks</string>
+    <string name="Rs">Rs</string>
+    <string name="add_description_here">Add description here</string>
+    <string name="meal_categories">Meal Categories</string>
+    <string name="todo">TODO</string>
+    <string name="title">Add Title here</string>
+    <string name="button">Button</string>
+    <string name="forgetpass">forget password  ? reset</string>
+    <string name="NewPassword">New Password</string>
+    <string name="ReEnterpass">Confirm New Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="forget">FORGET PASSWORD</string>
+    <string name="title2">Add Title here</string>
+    <string name="add_to_bag">Add to Bag</string>
+    <string name="Title">Title</string>
+    <string name="add_data">Add Data</string>
+    <string name="Img">Image</string>
+    <string name="Image">Image</string>
+
+</resources>

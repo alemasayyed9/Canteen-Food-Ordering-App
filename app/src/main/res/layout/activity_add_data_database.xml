@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_data_database"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cherrycolor2">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:text="@string/sm_shetty_canteen"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:fontFamily="@font/roboto_slab"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/id_title"
+        android:autofillHints="@string/Title"
+        android:hint="@string/Title"
+        android:inputType="text"
+        android:fontFamily="@font/roboto_slab"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/rs"
+        android:autofillHints="@string/Rs"
+        android:hint="@string/Rs"
+        android:inputType="number"
+        android:fontFamily="@font/roboto_slab"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/img"
+        android:autofillHints="@string/Image"
+        android:hint="@string/Image"
+        android:inputType="textUri"
+        android:fontFamily="@font/roboto_slab"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/btn_adddata"
+        android:text="@string/add_data"
+        android:background="@color/cherrycolor2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:onClick="dataAdd"
+        android:fontFamily="@font/roboto_slab"
+        />
+
+</LinearLayout>

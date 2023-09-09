@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/cards"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
+        app:cardBackgroundColor="@color/cherrycolor2"
+        >
+<androidx.cardview.widget.CardView
+    android:layout_width="180dp"
+    android:layout_height="144dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginStart="15dp"
+    >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/breakfast"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/breakfast" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/breakfast"
+        android:textSize="23sp"
+        android:textColor="@color/cherrycolor2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginStart="45dp"
+        android:fontFamily="@font/roboto_slab"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnbreakfast"
+        android:background="@android:color/transparent"
+        android:onClick="breakfast"
+        />
+</androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/cherrycolor2"
+        >
+        <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+            android:layout_height="144dp"
+            android:layout_marginTop="3dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        >
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/foodtray"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/lunch" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lunch"
+                android:textSize="23sp"
+                android:textColor="@color/cherrycolor2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="105dp"
+                android:layout_marginStart="55dp"
+                android:fontFamily="@font/roboto_slab"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnmeal"
+                android:background="@android:color/transparent"
+                android:onClick="lunch"
+                />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="10dp"
+        app:cardBackgroundColor="@color/cherrycolor2"
+        >
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="15dp"
+        >
+
+
+           <ImageView
+               android:layout_width="85dp"
+               android:layout_height="85dp"
+               android:src="@drawable/ramen"
+               android:layout_marginTop="15dp"
+               android:layout_gravity="center_horizontal"
+               android:contentDescription="@string/chinese" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/chinese"
+               android:textSize="23sp"
+               android:textColor="@color/cherrycolor2"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="105dp"
+               android:layout_marginStart="55dp"
+               android:fontFamily="@font/roboto_slab"
+               />
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/btnchinese"
+               android:background="@android:color/transparent"
+               android:onClick="chinese"
+               />
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/cherrycolor2"
+        >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="15dp"
+        >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/snacks"
+                android:textSize="23sp"
+                android:textColor="@color/cherrycolor2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="105dp"
+                android:layout_marginStart="55dp"
+                android:fontFamily="@font/roboto_slab"
+                />
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/coffeecup"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/snacks" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnsnacks"
+                android:background="@android:color/transparent"
+                android:onClick="snacks"
+                />
+    </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
